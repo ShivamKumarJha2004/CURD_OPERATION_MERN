@@ -1,0 +1,71 @@
+.userTable{
+    width: 80%;
+    height: auto;
+    margin: 7rem;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0,0, 0.6);
+}
+.userTable table
+{
+    width: 100%;
+   font-weight: 400;
+   text-align: center;
+   border: 1.4px solid black;
+   margin-top: 15px;
+   
+
+}
+.userTable table thead th
+{
+    background: #67B26F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 10px;
+}
+.add-btn
+{
+    font-size: 1.3rem;
+    padding: 5px 10px ;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.dlt-btn
+{
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+    outline: none ;
+    color: azure;
+    background: crimson;
+    margin-right: 17px;
+    cursor: pointer;
+}
+.userTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+.btn-edit
+{
+    font-size: 1.3rem;
+    padding: 7px 20px;
+    border-radius: 7px;
+    border: none;
+    outline: none ;
+    color: azure;
+    background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-right: 17px;
+   text-decoration: none;   
+   
+   
+}
+.fa-solid
+{
+    color: black;
+}
